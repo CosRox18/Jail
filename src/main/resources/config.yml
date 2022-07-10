@@ -1,0 +1,43 @@
+config:
+  world-name: "world"
+players:
+
+menu:
+  frame:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3105
+    type: YELLOW_STAINED_GLASS_PANE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":""}'
+  free:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3105
+    type: AIR
+    amount: 0
+  prev:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3105
+    type: ARROW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Предыдущая страница","color":"red","italic":"false"}'
+  next:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3105
+    type: ARROW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Следующая страница","color":"green","italic":"false"}'
+  empty:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3105
+    type: GRAY_STAINED_GLASS_PANE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":""}'
+
